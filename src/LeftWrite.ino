@@ -1,6 +1,4 @@
-//При первом запуске shouldWakeUp = 0
-//если нет движения в течении 30с уходит в глубокий сон shouldWakeUp = 1
-//далее после пробуждения вызывается wakeUp() до тех пор, пока движения не будет
+
 #include <NimBLEDevice.h>
 #include "Wire.h"
 #include <MPU6050_light.h>
